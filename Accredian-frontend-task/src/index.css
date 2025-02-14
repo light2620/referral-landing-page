@@ -4,3 +4,7 @@
 *{
     font-family : "poppins"
 }
+
+body {
+    @apply text-base font-sans leading-relaxed;
+  }
