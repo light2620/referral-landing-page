@@ -54,9 +54,9 @@ export default function ReferralModel({close}){
     <div className=" fixed top-0 bottom-0 left-0 right-0 bg-amber-100 flex items-center justify-center p-2" style = {{backgroundColor : "rgba(0,0,0,0.3)"}}>
         <div className="w-[80%] flex rounded-2xl overflow-hidden mx-auto">
          <div className="w-[40%] bg-blue-700 hidden lg:block">
-            <img src={image4} alt="" className="w-full h-full " />
+            <img src={image4} alt="" className="w-full h-full" />
          </div>
-        <div className="bg-white  lg:w-[40%] w-full lg:p-20 p-10 md:p-10 rounded shadow-2xl flex flex-col relative" >
+        <div className="bg-white  lg:w-[40%] w-full lg:px-15 p-10 md:p-10 rounded shadow-2xl flex flex-col relative" >
             <div className="absolute top-3 right-4" onClick={close}> <IoClose size={26} className="cursor-pointer"/></div>
             <form action="" onSubmit={submitData} className="flex flex-col gap-2">
             {/* referrer details */}
@@ -70,7 +70,7 @@ export default function ReferralModel({close}){
                 name="referrerName"
                 value={formData.referrerName}
                 onChange={handleChange}
-                className="outline-none border rounded p-3 border-blue-300 bg-blue-100 focus-within:border-blue-500 focus-within:border-2 focus-within:outline-none"
+                className="outline-none border rounded p-2 border-blue-300 bg-blue-100 focus-within:border-blue-500 focus-within:border-2 focus-within:outline-none"
                 />
             </div>
             <div className="flex flex-col gap-1">
@@ -82,7 +82,7 @@ export default function ReferralModel({close}){
                 name="referrerEmail"
                 onChange={handleChange}
                 value={formData.referrerEmail}
-                className="outline-none border rounded p-3 border-blue-300 bg-blue-100 focus-within:border-blue-500 focus-within:border-2 focus-within:outline-none"
+                className="outline-none border rounded p-2 border-blue-300 bg-blue-100 focus-within:border-blue-500 focus-within:border-2 focus-within:outline-none"
                 />
             </div>
             </div>
@@ -99,7 +99,7 @@ export default function ReferralModel({close}){
                 name="refereeName"
                 onChange={handleChange}
                 value={formData.refereeName}
-                className="outline-none border rounded p-3 border-blue-300 bg-blue-100 focus-within:border-blue-500 focus-within:border-2 focus-within:outline-none"
+                className="outline-none border rounded p-2 border-blue-300 bg-blue-100 focus-within:border-blue-500 focus-within:border-2 focus-within:outline-none"
                 />
             </div>
             <div className="flex flex-col gap-1">
@@ -111,7 +111,7 @@ export default function ReferralModel({close}){
                 name="refereeEmail"
                 value={formData.refereeEmail}
                 onChange={handleChange}
-                className="outline-none border rounded p-3 border-blue-300 bg-blue-100 focus-within:border-blue-500 focus-within:border-2 focus-within:outline-none"
+                className="outline-none border rounded p-2 border-blue-300 bg-blue-100 focus-within:border-blue-500 focus-within:border-2 focus-within:outline-none"
                 />
             </div>
             <div className="flex flex-col gap-1">
@@ -129,7 +129,7 @@ export default function ReferralModel({close}){
                 name="refereeNumber"
                 value={formData.refereeNumber}
                 onChange={handleChange}
-                className="outline-none border rounded p-3 border-blue-300 bg-blue-100 focus-within:border-blue-500 focus-within:border-2 focus-within:outline-none"
+                className="outline-none border rounded p-2 border-blue-300 bg-blue-100 focus-within:border-blue-500 focus-within:border-2 focus-within:outline-none"
                 />
             </div>
             <div className="flex flex-col gap-2">
