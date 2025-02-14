@@ -23,5 +23,12 @@ dist-ssr
 *.sln
 *.sw?
 
+#mannual changes
+Accredian-frontend-task/node_modules
+Accredian-Backend-task/node_modules
+.env
+.Accredian-frontend-task/.env
+.Accredian-Backend-task/.env
+
 
 
