@@ -62,7 +62,7 @@ export default function ReferralModel({close}){
             {/* referrer details */}
             <div className="flex flex-col gap-2">
             <div className="flex flex-col gap-1">
-                <label className="text-xl" htmlFor="referrerName">Your Name: </label>
+                <label className="text-lg" htmlFor="referrerName">Your Name: </label>
                 <input
                 id="referrerName" 
                 type="text"
@@ -74,7 +74,7 @@ export default function ReferralModel({close}){
                 />
             </div>
             <div className="flex flex-col gap-1">
-                <label className="text-xl" htmlFor="refferrerEmail">Your Email: </label>
+                <label className="text-lg" htmlFor="refferrerEmail">Your Email: </label>
                 <input
                 id="refferrerEmail"
                 required
@@ -89,9 +89,9 @@ export default function ReferralModel({close}){
            
              {/* referee details */}
             <div className="flex flex-col  gap-2">
-            <p className="text-3xl font-semibold">Referee Details</p>
+            <p className="text-2xl font-semibold">Referee Details</p>
              <div className="flex flex-col gap-1">
-                <label className="text-xl" htmlFor="refereeName">Name: </label>
+                <label className="text-lg" htmlFor="refereeName">Name: </label>
                 <input
                 id="refereeName" 
                 type="text"
@@ -103,7 +103,7 @@ export default function ReferralModel({close}){
                 />
             </div>
             <div className="flex flex-col gap-1">
-                <label className="text-xl" htmlFor="refereeEmail">Email: </label>
+                <label className="text-lg" htmlFor="refereeEmail">Email: </label>
                 <input
                 id="refereeEmail"
                 required
@@ -115,7 +115,7 @@ export default function ReferralModel({close}){
                 />
             </div>
             <div className="flex flex-col gap-1">
-                <label className="text-xl" htmlFor="refereeNumber">Phone : </label>
+                <label className="text-lg" htmlFor="refereeNumber">Phone : </label>
                 <input
                 id="refereeNumber"
                 required
@@ -133,7 +133,7 @@ export default function ReferralModel({close}){
                 />
             </div>
             <div className="flex flex-col gap-2">
-                <h1 className="text-xl" >Course to refer</h1>
+                <h1 className="text-lg" >Course to refer</h1>
                 <select name="course" id="" value = {formData.course} className="w-full p-2 focus-within:outline-none border border-blue-400 rounded px-3 text-xl focus-within:border-2 focus-within:border-blue-600"  onChange={handleChange} >
                 <option value="" disabled selected >Select a course</option>
                 {
@@ -144,7 +144,7 @@ export default function ReferralModel({close}){
                 </select>
             </div>
          </div>
-            <button disabled={!isButtonActive} role="submit" className={`${isButtonActive ? "bg-blue-600" : "bg-gray-700" } cursor-pointer text-white w-full text-xl py-2 font-semibold rounded shadow mt-2`}>Refer Now</button>
+            <button disabled={!isButtonActive} role="submit" className={`${isButtonActive ? "bg-blue-600" : "bg-gray-700" } cursor-pointer text-white w-full text-lg py-2 font-semibold rounded shadow mt-2`}>Refer Now</button>
             
 
         </form>
