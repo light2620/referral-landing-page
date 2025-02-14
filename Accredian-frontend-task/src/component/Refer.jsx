@@ -6,12 +6,12 @@ export default function Refer({openReferralModel }){
            <img src={image1} alt="" className="w-full h-full" />
         </div>
         <div className="lg:w-[50%] md:w-[50%] w-full  bg-blue-500 flex flex-col items-center justify-center p-5 gap-10">
-            <h1 className="text-white font-bold lg:text-7xl md:text-5xl text-3xl  text-center">
+            <h1 className="text-white font-bold lg:text-5xl md:text-5xl text-3xl  text-center">
                Earn <span className="text-neutral-900">10x</span> reward With Our Referal Scheme.
             </h1>
             <button
             onClick={openReferralModel}
-            className="bg-white text-xl font-bold p-3 text-blue-600 shadow rounded hover:shadow-2xl cursor-pointer ">
+            className="bg-white text-lg font-bold p-3 text-blue-600 shadow rounded hover:shadow-2xl cursor-pointer ">
                  Refer and Earn
             </button>
         </div>
